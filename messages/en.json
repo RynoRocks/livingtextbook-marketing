@@ -3,7 +3,7 @@
     "features": "Features",
     "educators": "For Educators",
     "learners": "For Learners",
-    "cta": "Start Free",
+    "cta": "Log In",
     "language": "Language",
     "theme": "Theme"
   },
@@ -25,7 +25,7 @@
     "hero": {
       "title": "The Living Textbook",
       "subtitle": "A curriculum that learns from you. Powered by AI. Guided by neuroscience. Built by educators, for educators.",
-      "primaryCta": "Start Free",
+      "primaryCta": "Log In",
       "secondaryCta": "See Features"
     },
     "pillars": {
@@ -175,7 +175,7 @@
     },
     "finalCta": {
       "title": "Every conversation builds your textbook. Start yours today.",
-      "primaryCta": "Start Free",
+      "primaryCta": "Log In",
       "secondaryCta": "Book a Demo"
     }
   },
@@ -303,7 +303,7 @@
     "cta": {
       "title": "Start Teaching with The Living Textbook",
       "subtitle": "Your brand. Your students. Your earnings.",
-      "button": "Start Free"
+      "button": "Log In"
     }
   },
   "learners": {
@@ -360,13 +360,13 @@
     "cta": {
       "title": "Start Learning with The Living Textbook",
       "subtitle": "Experience a curriculum built from your real conversations.",
-      "button": "Start Free"
+      "button": "Log In"
     }
   },
   "common": {
     "learnMore": "Learn More",
     "getStarted": "Get Started",
-    "startFree": "Start Free",
+    "startFree": "Log In",
     "bookDemo": "Book a Demo"
   },
   "blog": {

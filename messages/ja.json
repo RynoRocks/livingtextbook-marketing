@@ -3,7 +3,7 @@
     "features": "機能",
     "educators": "教育者向け",
     "learners": "学習者向け",
-    "cta": "無料で始める",
+    "cta": "ログイン",
     "language": "言語",
     "theme": "テーマ"
   },
@@ -25,7 +25,7 @@
     "hero": {
       "title": "ザ・リビング テキストブック",
       "subtitle": "あなたから学ぶカリキュラム。AIを活用し、神経科学に基づき、教育者のために教育者が構築しました。",
-      "primaryCta": "無料で始める",
+      "primaryCta": "ログイン",
       "secondaryCta": "機能を見る"
     },
     "pillars": {
@@ -175,7 +175,7 @@
     },
     "finalCta": {
       "title": "すべての会話があなたのテキストブックを作る。今日から始めましょう。",
-      "primaryCta": "無料で始める",
+      "primaryCta": "ログイン",
       "secondaryCta": "デモを予約"
     }
   },
@@ -303,7 +303,7 @@
     "cta": {
       "title": "The Living Textbookで指導を始める",
       "subtitle": "あなたのブランド。あなたの生徒。あなたの収入。",
-      "button": "無料で始める"
+      "button": "ログイン"
     }
   },
   "learners": {
@@ -360,13 +360,13 @@
     "cta": {
       "title": "The Living Textbookで学習を始める",
       "subtitle": "実際の会話から生まれるカリキュラムを体験してください。",
-      "button": "無料で始める"
+      "button": "ログイン"
     }
   },
   "common": {
     "learnMore": "詳しく見る",
     "getStarted": "始める",
-    "startFree": "無料で始める",
+    "startFree": "ログイン",
     "bookDemo": "デモを予約"
   },
   "blog": {

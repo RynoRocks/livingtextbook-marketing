@@ -3,7 +3,7 @@
     "features": "기능",
     "educators": "교육자용",
     "learners": "학습자용",
-    "cta": "무료로 시작",
+    "cta": "로그인",
     "language": "언어",
     "theme": "테마"
   },
@@ -25,7 +25,7 @@
     "hero": {
       "title": "더 리빙 텍스트북",
       "subtitle": "당신에게서 배우는 커리큘럼. AI로 구동되고, 신경과학에 기반하며, 교육자가 교육자를 위해 만들었습니다.",
-      "primaryCta": "무료로 시작",
+      "primaryCta": "로그인",
       "secondaryCta": "기능 보기"
     },
     "pillars": {
@@ -175,7 +175,7 @@
     },
     "finalCta": {
       "title": "모든 대화가 당신의 텍스트북을 만듭니다. 오늘 시작하세요.",
-      "primaryCta": "무료로 시작",
+      "primaryCta": "로그인",
       "secondaryCta": "데모 예약"
     }
   },
@@ -303,7 +303,7 @@
     "cta": {
       "title": "The Living Textbook으로 교육 시작",
       "subtitle": "당신의 브랜드. 당신의 학생. 당신의 수입.",
-      "button": "무료로 시작"
+      "button": "로그인"
     }
   },
   "learners": {
@@ -360,13 +360,13 @@
     "cta": {
       "title": "The Living Textbook으로 학습 시작",
       "subtitle": "실제 대화에서 생성된 커리큘럼을 경험해 보세요.",
-      "button": "무료로 시작"
+      "button": "로그인"
     }
   },
   "common": {
     "learnMore": "자세히 보기",
     "getStarted": "시작하기",
-    "startFree": "무료로 시작",
+    "startFree": "로그인",
     "bookDemo": "데모 예약"
   },
   "blog": {
