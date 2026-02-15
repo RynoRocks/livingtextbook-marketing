@@ -35,13 +35,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="space-y-4">
-            <Link href={`/${locale}`} className="flex items-center gap-2">
+            <a href="https://www.lokalingo.com/" className="flex items-center gap-2">
               <Image src="/logo.png" alt="The Living Textbook" width={28} height={28} className="rounded" />
               <div>
                 <span className="text-xl font-bold tracking-wide block leading-tight">The Living Textbook</span>
                 <span className="text-white/70 text-xs block leading-tight">by LokaLingo</span>
               </div>
-            </Link>
+            </a>
             <p className="text-white/90 text-sm leading-relaxed">{t('tagline')}</p>
             <a
               href="mailto:ryan@lokalingo.com"

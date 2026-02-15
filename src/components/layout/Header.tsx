@@ -23,13 +23,13 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <nav className="container-custom flex items-center justify-between py-4">
-        <Link href={`/${locale}`} className="flex items-center gap-2">
+        <a href="https://www.lokalingo.com/" className="flex items-center gap-2">
           <Image src="/logo.png" alt="The Living Textbook" width={32} height={32} className="rounded" />
           <div className="flex flex-col">
             <span className="text-xl font-bold text-primary leading-tight">The Living Textbook</span>
             <span className="text-xs text-muted-foreground leading-tight">by LokaLingo</span>
           </div>
-        </Link>
+        </a>
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center gap-8">
