@@ -82,9 +82,15 @@
   }
 
   /* Japanese/Korean typography */
-  :lang(ja), :lang(ko) {
+  :lang(ja) {
+    word-break: auto-phrase;
+    line-break: strict;
+    overflow-wrap: break-word;
+  }
+  :lang(ko) {
     word-break: keep-all;
     line-break: strict;
+    overflow-wrap: break-word;
   }
 }
 
