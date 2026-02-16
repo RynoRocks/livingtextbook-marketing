@@ -3,6 +3,7 @@
     "features": "Features",
     "educators": "For Educators",
     "learners": "For Learners",
+    "blog": "Blog",
     "cta": "Log In",
     "language": "Language",
     "theme": "Theme"
@@ -371,11 +372,27 @@
     "bookDemo": "Book a Demo"
   },
   "blog": {
-    "pageTitle": "Loka Blog",
-    "pageSubtitle": "Insights on language teaching, EdTech innovation, and the future of education",
+    "pageTitle": "The Living Textbook Blog",
+    "pageSubtitle": "Insights on language learning science, AI-powered education, and the future of EdTech",
     "backToBlog": "Back to Blog",
     "readMore": "Read More",
     "noPosts": "No posts yet. Check back soon!",
+    "allCategories": "All",
+    "noPostsInCategory": "No posts in this category yet.",
+    "categories": {
+      "Platform": "Platform",
+      "Learning Science": "Learning Science",
+      "AI": "AI",
+      "Teaching": "Teaching",
+      "Assessment": "Assessment",
+      "Technology": "Technology",
+      "Trending": "Trending"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page"
+    },
     "posts": {
       "loka-1771077825805": {
         "title": "Interactive Whiteboard Language Teaching: Complete 2025 Guide",

@@ -61,7 +61,12 @@ export const blogPosts: BlogPostMeta[] = [
     readTime: '8 min read',
     author: 'Ryan Ahamer',
     heroImage: '/images/blog/default-hero.jpg',
-  },];
+  },
+];
+
+// LTB blog categories — product and learning science focused
+export const blogCategories = ['Platform', 'Learning Science', 'AI', 'Teaching', 'Assessment', 'Technology', 'Trending'] as const;
+export type BlogCategory = typeof blogCategories[number];
 
 // Helper: get localized slug or fallback to base slug
 export function getLocalizedSlug(post: BlogPostMeta, locale: string): string {
@@ -70,12 +75,46 @@ export function getLocalizedSlug(post: BlogPostMeta, locale: string): string {
   return localizedSlug || post.slug;
 }
 
-// Helper: find blog post by slug (supports locale-specific slugs)
-export function getBlogPost(slug: string, locale: string): BlogPostMeta | undefined {
+// Helper: find which locale a slug belongs to
+export function findSlugLocale(slug: string): { post: BlogPostMeta; locale: string } | undefined {
   const decodedSlug = decodeURIComponent(slug);
-  return blogPosts.find((post) => {
-    if (locale === 'en') return post.slug === decodedSlug;
-    const localizedSlug = post.slugs?.[locale as keyof typeof post.slugs];
-    return localizedSlug === decodedSlug || post.slug === decodedSlug;
+  for (const post of blogPosts) {
+    if (post.slug === decodedSlug) return { post, locale: 'en' };
+    if (post.slugs?.ja === decodedSlug) return { post, locale: 'ja' };
+    if (post.slugs?.ko === decodedSlug) return { post, locale: 'ko' };
+  }
+  return undefined;
+}
+
+// Helper: get full blog post with content from messages
+export function getFullBlogPost(slug: string, messages: BlogMessages, locale?: string): BlogPost | undefined {
+  const decodedSlug = decodeURIComponent(slug);
+
+  const meta = blogPosts.find(post => {
+    if (locale === 'ja' && post.slugs?.ja === decodedSlug) return true;
+    if (locale === 'ko' && post.slugs?.ko === decodedSlug) return true;
+    return post.slug === decodedSlug;
   });
+  if (!meta) return undefined;
+
+  const postContent = messages.blog?.posts?.[meta.id];
+  if (!postContent) return undefined;
+
+  return { ...meta, ...postContent };
+}
+
+// Helper: get all blog posts with content
+export function getAllBlogPosts(messages: BlogMessages): BlogPost[] {
+  return blogPosts
+    .map(meta => {
+      const postContent = messages.blog?.posts?.[meta.id];
+      if (!postContent) return null;
+      return { ...meta, ...postContent };
+    })
+    .filter((post): post is BlogPost => post !== null);
+}
+
+// Helper: get blog posts filtered by category
+export function getBlogPostsByCategory(category: string, messages: BlogMessages): BlogPost[] {
+  return getAllBlogPosts(messages).filter(post => post.category === category);
 }

@@ -3,6 +3,7 @@
     "features": "機能",
     "educators": "教育者向け",
     "learners": "学習者向け",
+    "blog": "ブログ",
     "cta": "ログイン",
     "language": "言語",
     "theme": "テーマ"
@@ -371,11 +372,27 @@
     "bookDemo": "デモを予約"
   },
   "blog": {
-    "pageTitle": "ブログ",
-    "pageSubtitle": "言語教育のヒント、EdTech最新情報、教育のベストプラクティス",
+    "pageTitle": "ザ・リビング テキストブック ブログ",
+    "pageSubtitle": "言語学習科学、AI教育、教授法、EdTechの未来に関するインサイト",
     "backToBlog": "ブログ一覧に戻る",
     "readMore": "続きを読む",
     "noPosts": "まだ記事がありません。",
+    "allCategories": "すべて",
+    "noPostsInCategory": "このカテゴリにはまだ記事がありません。",
+    "categories": {
+      "Platform": "プラットフォーム",
+      "Learning Science": "学習科学",
+      "AI": "AI",
+      "Teaching": "教授法",
+      "Assessment": "評価",
+      "Technology": "テクノロジー",
+      "Trending": "トレンド"
+    },
+    "pagination": {
+      "previous": "前へ",
+      "next": "次へ",
+      "page": "ページ"
+    },
     "posts": {
       "loka-1771237807261": {
         "title": "2026年版：間隔反復を活用した語学学習の最新動向と実践ガイド",

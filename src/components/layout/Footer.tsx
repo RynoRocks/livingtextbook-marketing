@@ -20,7 +20,7 @@ export function Footer() {
     ],
     lokalingo: [
       { name: t('lokaSite'), href: 'https://lokalingo.com' },
-      { name: t('blog'), href: 'https://lokalingo.com/en/blog' },
+      { name: t('blog'), href: `/${locale}/blog` },
       { name: t('contact'), href: 'https://lokalingo.com/en/contact' },
     ],
     legal: [

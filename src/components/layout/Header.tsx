@@ -18,6 +18,7 @@ export function Header() {
     { name: t('features'), href: `/${locale}/features` },
     { name: t('educators'), href: `/${locale}/for-educators` },
     { name: t('learners'), href: `/${locale}/for-learners` },
+    { name: t('blog'), href: `/${locale}/blog` },
   ];
 
   return (

@@ -3,6 +3,7 @@
     "features": "기능",
     "educators": "교육자용",
     "learners": "학습자용",
+    "blog": "블로그",
     "cta": "로그인",
     "language": "언어",
     "theme": "테마"
@@ -371,11 +372,27 @@
     "bookDemo": "데모 예약"
   },
   "blog": {
-    "pageTitle": "블로그",
-    "pageSubtitle": "언어 교육 팁, EdTech 최신 정보, 교육 모범 사례",
+    "pageTitle": "더 리빙 텍스트북 블로그",
+    "pageSubtitle": "언어 학습 과학, AI 교육, 교수법, EdTech의 미래에 대한 인사이트",
     "backToBlog": "블로그 목록으로 돌아가기",
     "readMore": "더 읽기",
     "noPosts": "아직 게시물이 없습니다.",
+    "allCategories": "전체",
+    "noPostsInCategory": "이 카테고리에 아직 게시물이 없습니다.",
+    "categories": {
+      "Platform": "플랫폼",
+      "Learning Science": "학습 과학",
+      "AI": "AI",
+      "Teaching": "교수법",
+      "Assessment": "평가",
+      "Technology": "기술",
+      "Trending": "트렌드"
+    },
+    "pagination": {
+      "previous": "이전",
+      "next": "다음",
+      "page": "페이지"
+    },
     "posts": {}
   }
 }
