@@ -61,6 +61,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Learning Science',
     readTime: '8 min read',
     author: 'Ryan Ahamer',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771237807261.png',
   },
   {
     id: 'loka-1771077825805',
@@ -69,6 +70,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Platform',
     readTime: '8 min read',
     author: 'Ryan Ahamer',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771077825805.png',
   },
 ];
 
