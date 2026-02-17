@@ -52,7 +52,6 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Learning Science',
     readTime: '8 min read',
     author: 'Ryan Ahamer',
-    heroImage: '/images/blog/default-hero.jpg',
   },
   {
     id: 'loka-1771077825805',
@@ -61,7 +60,6 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Platform',
     readTime: '8 min read',
     author: 'Ryan Ahamer',
-    heroImage: '/images/blog/default-hero.jpg',
   },
 ];
 
