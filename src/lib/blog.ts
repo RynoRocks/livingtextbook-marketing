@@ -45,6 +45,7 @@ export const blogPosts: BlogPostMeta[] = [
     id: 'loka-1771669807772',
     slug: 'ai-powered-real-time-language-tutoring-how-multimo-20260221',
     slugs: {
+      ko: '-2026--20260221',
       ja: 'edtech-2026--20260221',
     },
     date: '2026-02-21',
